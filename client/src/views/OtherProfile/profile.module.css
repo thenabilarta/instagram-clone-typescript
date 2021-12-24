@@ -1,0 +1,83 @@
+.profileWrapper {
+  min-height: calc(100vh - 150px);
+}
+
+.profileHeader {
+  height: 170px;
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.profilePictureWrapper {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePicture {
+  height: 150px;
+  width: 150px;
+  min-height: 150px;
+  min-width: 150px;
+  border-radius: 75px;
+  overflow: hidden;
+}
+
+.profilePicture img {
+  width: 100%;
+  height: 100%;
+}
+
+.profileDescriptionWrapper {
+  flex: 5;
+}
+
+.username {
+  font-size: 28px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+}
+
+.info p {
+  padding: 0 1rem;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.descriptionText:first-child {
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.descriptionText {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.profileBody {
+  border-top: 1px solid #dbdbdb;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-auto-rows: minmax(300px, auto);
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.profilePost {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+.profilePost img {
+  width: 100%;
+  height: 100%;
+}

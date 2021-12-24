@@ -1,0 +1,29 @@
+.navbarWrapperMobile {
+  border-bottom: 1px solid #dbdbdb;
+  height: 54px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.navbarInnerWrapperMobile {
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbarMobile {
+  max-width: 935px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoMobile {
+  margin-top: 7px;
+  cursor: pointer;
+}

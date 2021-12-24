@@ -1,0 +1,102 @@
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.bannerWrapper {
+  width: 454px;
+  position: relative;
+}
+
+.outerBanner {
+  width: 100%;
+}
+
+.innerBanner {
+  position: absolute;
+  left: 151px;
+  top: 99px;
+  width: 240px;
+  height: 427px;
+  opacity: 1;
+  background-color: #fff;
+}
+
+/* .innerBanner img {
+  animation: fadeout 5s ease-in-out infinite;
+} */
+
+@keyframes fadeout {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.loginBoxWrapper {
+  width: 350px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 989px) {
+  .loginBoxWrapper {
+    margin: 0 1rem;
+  }
+}
+
+.loginBox {
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  /* height: 500px; */
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  width: 100%;
+  background-color: white;
+}
+
+.loginBoxHeader {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.loginBox img {
+  height: 100%;
+}
+
+.loginBoxInput {
+  background-color: red;
+  height: 250px;
+}
+
+.registerBox {
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  /* height: 500px; */
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.registerBox strong {
+  color: #0095f6;
+}
