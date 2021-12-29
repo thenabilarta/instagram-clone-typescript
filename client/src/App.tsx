@@ -22,7 +22,7 @@ function App() {
         <Route path="/profile" element={Auth(Profile, null, false)} />
         <Route path="/" element={Auth(Dashboard, null, false)} />
         <Route path="/login" element={Auth(Login, null, false)} />
-        <Route path="/register" element={Register} />
+        <Route path="/register" element={Register()} />
       </Routes>
     </div>
   );
